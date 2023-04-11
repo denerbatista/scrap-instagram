@@ -2,9 +2,12 @@
   "name": "scrap-instagram",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Dener Batista",
   "private": true,
   "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.10.0"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
